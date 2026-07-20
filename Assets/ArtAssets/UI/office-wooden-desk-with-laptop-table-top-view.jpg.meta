@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 92632b34b07d4d543b3566b5ec306c94
+guid: a3f29fe82fdb8dd438dff4b21660d5fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7872722273471896646
-    second: Desk_0
+      213: -4112651384071056949
+    second: office-wooden-desk-with-laptop-table-top-view_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Desk_0
+      name: office-wooden-desk-with-laptop-table-top-view_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 540
-        height: 360
+        width: 5357
+        height: 3464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64c199d3237814d60800000000000000
-      internalID: 7872722273471896646
+      spriteID: bc11d6f1b5dece6c0800000000000000
+      internalID: -4112651384071056949
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Desk_0: 7872722273471896646
+      office-wooden-desk-with-laptop-table-top-view_0: -4112651384071056949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
