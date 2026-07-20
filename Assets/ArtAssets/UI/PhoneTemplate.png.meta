@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1979c134375bdd94988505175f02cda4
+guid: 22b204ce7dded1947a2ec78166403b2c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8656067683477624156
-    second: TinderCheck_0
+      213: 3973564860605754752
+    second: PhoneTemplate_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TinderCheck_0
+      name: PhoneTemplate_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 767
-        height: 692
+        width: 1080
+        height: 2232
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c551c6142b7802870800000000000000
-      internalID: 8656067683477624156
+      spriteID: 08d61681030f42730800000000000000
+      internalID: 3973564860605754752
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TinderCheck_0: 8656067683477624156
+      PhoneTemplate_0: 3973564860605754752
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
