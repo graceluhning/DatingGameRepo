@@ -22,7 +22,7 @@ namespace DatingGame.Core
         private Vector2 startPosition;
         private GeneratedProfile currentProfile;
         
-        // Player State
+        
         private RelationshipType playerRelationship;
         private SmokerStatus playerSmoker;
         private PetStatus playerPets;
@@ -136,7 +136,7 @@ namespace DatingGame.Core
                 else
                 {
                     mistakesCount++;
-                    correctSwipesCount = 0; // Reset streak as per "without failing" rule
+                    correctSwipesCount = 0; 
                     if (mistakesCount >= MaxMistakes)
                     {
                         feedback.ShowGameOver();

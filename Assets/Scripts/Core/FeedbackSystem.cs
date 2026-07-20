@@ -14,7 +14,7 @@ namespace DatingGame.Core
         private void Start()
         {
             if (hintText != null)
-                hintText.text = "Guess your attributes and find your match!";
+                hintText.text = "Guess their attributes and find your match!";
         }
 
         private void Update()

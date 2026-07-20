@@ -34,48 +34,59 @@ MonoBehaviour:
     relationshipType: 2
     smokerStatus: 0
     petStatus: 0
-  - bio: 
+  - bio: 'Be the reason why I delete this app :)
+
+
+      Goth girls are cute ;)'
+    distance: 2
+    portrait: {fileID: 21300000, guid: 1cd1dc5411f717f4a85c21a99a4eb0c7, type: 3}
+    relationshipType: 0
+    smokerStatus: 1
+    petStatus: 0
+  - bio: The woman is the flower of the tree of life, bringing color and warmth to
+      the world...
+    distance: 7
+    portrait: {fileID: 21300000, guid: 0103c2d56e620a54b9b85162d4da260f, type: 3}
+    relationshipType: 0
+    smokerStatus: 1
+    petStatus: 1
+  - bio: 'I cannot host, but can drive
+
+      No flakes!
+
+
+      Tested & on Pr3P
+      as you should be too!'
     distance: 0
-    portrait: {fileID: 0}
+    portrait: {fileID: 21300000, guid: 5483f25121a294a42b250fb28e4f6465, type: 3}
+    relationshipType: 1
+    smokerStatus: 0
+    petStatus: 1
+  - bio: I only care about the personality in my man, so 6ft+ and 7 figures is enough..
+    distance: 0
+    portrait: {fileID: 21300000, guid: dc58b599bc096984287998a85d4c88c6, type: 3}
     relationshipType: 0
     smokerStatus: 0
     petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
+  - bio: I love outdoors and hiking. There is a place I know just outside the town.
+    distance: 19
+    portrait: {fileID: 21300000, guid: afcabc847de6b034da8a7b3ed47d9c6e, type: 3}
+    relationshipType: 2
+    smokerStatus: 1
+    petStatus: 1
+  - bio: 'i"m not here often, follow my socials
+
+
+      *LINK*
+
+      *LINK*
+
+      *LINK* '
+    distance: 15
+    portrait: {fileID: 21300000, guid: 2fe52dd94fc78334e8bff24839cc2e41, type: 3}
+    relationshipType: 2
     smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
+    petStatus: 1
   - bio: 
     distance: 0
     portrait: {fileID: 0}
