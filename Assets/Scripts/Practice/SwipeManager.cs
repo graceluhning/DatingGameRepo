@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using TMPro;
 using DatingGame.Data;
 
 namespace DatingGame.Core
 {
-    public class SwipeManager : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
+    public class SwipeManager : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler, IPointerDownHandler
     {
         [Header("Settings")]
         [SerializeField] private RectTransform cardTransform;
@@ -116,7 +117,10 @@ namespace DatingGame.Core
         {
             if (currentProfile != null)
             {
-                bool isMatch = CheckIfMatch(currentProfile);
+                int matchCount = GetMatchCount(currentProfile);
+                bool relationshipMatches = currentProfile.relationshipType == playerRelationship;
+                int requiredMatches = (correctSwipesCount >= SwipesRequiredForPerfectMatch) ? 1 : 2;
+                bool isMatch = relationshipMatches && (matchCount >= requiredMatches);
                 bool wasCorrect = (liked == isMatch);
 
                 if (wasCorrect)
@@ -156,11 +160,31 @@ namespace DatingGame.Core
             }
         }
 
+        private int GetMatchCount(GeneratedProfile profile)
+        {
+            int count = 0;
+            if (profile.relationshipType == playerRelationship) count++;
+            if (profile.smokerStatus == playerSmoker) count++;
+            if (profile.petStatus == playerPets) count++;
+            return count;
+        }
+
         private bool CheckIfMatch(GeneratedProfile profile)
         {
-            return profile.relationshipType == playerRelationship &&
-                   profile.smokerStatus == playerSmoker &&
-                   profile.petStatus == playerPets;
+            return GetMatchCount(profile) == 3;
+        }
+
+        public void OnPointerDown(PointerEventData eventData)
+        {
+            if (isGameOver)
+            {
+                RestartGame();
+            }
+        }
+
+        public void RestartGame()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
         private void ResetCard()

@@ -16,26 +16,26 @@ MonoBehaviour:
   - bio: 'D!ck pic = block!
 
 
-      Getting tons of messages so don''t just say hi! '
+      Getting tons of messages so don''t just say hi!'
     distance: 4
     portrait: {fileID: 21300000, guid: 83e0033b235171041a5b0b1f46856c4a, type: 3}
     relationshipType: 1
     smokerStatus: 0
     petStatus: 0
-  - bio: A god fearing, family-oriented man. I'm new to this app. Looking for connections.
+  - bio: A God-fearing, family-oriented man. I'm new to this app. Looking for connections.
     distance: 13
     portrait: {fileID: 21300000, guid: 6b90a5eb92bbf104ea44f18d3d0a55d4, type: 3}
     relationshipType: 1
     smokerStatus: 1
     petStatus: 1
   - bio: "An avid reader and a traveler, also a dog mom! \n\nNew in town, looking
-      for somebody to show me around. Take me to your favourite restaurant!"
+      for someone to show me around."
     distance: 7
     portrait: {fileID: 21300000, guid: 9a3da5ec37c87d142a1cf3d4fc92cea0, type: 3}
     relationshipType: 2
     smokerStatus: 0
     petStatus: 0
-  - bio: 'Be the reason why I delete this app :)
+  - bio: 'Be the reason I delete this app :)
 
 
       Goth girls are cute ;)'
@@ -69,13 +69,14 @@ MonoBehaviour:
     relationshipType: 0
     smokerStatus: 0
     petStatus: 0
-  - bio: I love outdoors and hiking. There is a place I know just outside the town.
+  - bio: "I love outdoors and hiking. \nThere is a place I know just outside the
+      town."
     distance: 19
     portrait: {fileID: 21300000, guid: afcabc847de6b034da8a7b3ed47d9c6e, type: 3}
     relationshipType: 2
     smokerStatus: 1
     petStatus: 1
-  - bio: 'i"m not here often, follow my socials
+  - bio: 'I''m not here often, follow my socials
 
 
       *LINK*
@@ -88,131 +89,139 @@ MonoBehaviour:
     relationshipType: 2
     smokerStatus: 0
     petStatus: 1
-  - bio: I'm a well educated and hardworking man looking for love. Probably at the
+  - bio: I'm a well-educated and hardworking man looking for love. Probably at the
       wrong place :)
     distance: 4
     portrait: {fileID: 21300000, guid: d1aa87570aa036248bdac2be0d70efc3, type: 3}
     relationshipType: 0
     smokerStatus: 1
     petStatus: 1
-  - bio: 'Oh god I love kids!!! I hope one day I''ll have one ! '
+  - bio: 'Oh God I love kids!!!
+
+      I hope one day I''ll have one!'
     distance: 16
     portrait: {fileID: 21300000, guid: 8caba582726c50e43bbc142815672a91, type: 3}
     relationshipType: 0
     smokerStatus: 0
     petStatus: 1
   - bio: "I hate life and everything in it. So I probably hate you too\n\nConservatives
-      are lame \n42o friendly"
+      are lame \n420 friendly"
     distance: 29
     portrait: {fileID: 21300000, guid: 62e26e7af7c99bd449238f12f676f962, type: 3}
     relationshipType: 2
     smokerStatus: 0
     petStatus: 1
-  - bio: 'I luv clubs and dancing xoxo '
+  - bio: I luv clubs and dancing xoxo
     distance: 3
     portrait: {fileID: 21300000, guid: 28a339f04a81c2947bcd962d95167bfc, type: 3}
     relationshipType: 2
     smokerStatus: 0
     petStatus: 1
-  - bio: "Lover of life, animals and nature.\t Inauthentic people makes me cringe..\t "
-    distance: 0
+  - bio: "Lover of life, animals and nature. Inauthentic people makes\n me cringe.."
+    distance: 8
     portrait: {fileID: 21300000, guid: 0c2511e9b457f1a49b4c3e1c97f034b2, type: 3}
     relationshipType: 0
     smokerStatus: 0
     petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
+  - bio: My friends made me open this account, I don't know why I'm here
+    distance: 12
+    portrait: {fileID: 21300000, guid: 1929909ecef41354a8a4e874e15cd397, type: 3}
+    relationshipType: 1
+    smokerStatus: 1
+    petStatus: 1
+  - bio: 'New to this appssss@#..
+
+      Where do I pressssciousssss??11$%#@'
+    distance: 20
+    portrait: {fileID: 21300000, guid: ff99c2626fe6e444a8dbe09de5586319, type: 3}
+    relationshipType: 2
+    smokerStatus: 0
+    petStatus: 1
+  - bio: My favourite song is "The Love of My Life"
+    distance: 10
+    portrait: {fileID: 21300000, guid: 73a05fad821cf5848b98459653e935ce, type: 3}
+    relationshipType: 1
+    smokerStatus: 0
+    petStatus: 1
+  - bio: The wifey is sleeping, any cuties nearby ? :))
+    distance: 3
+    portrait: {fileID: 21300000, guid: 84fa8925664b3d94b8138fc86fdf2228, type: 3}
+    relationshipType: 1
+    smokerStatus: 1
+    petStatus: 0
+  - bio: The hubby thinks I'm sleeping, but I know he's up to something... If you
+      see a big, green, mean ogre around, LMK! I will cut his little @!$#%!!!
+    distance: 3
+    portrait: {fileID: 21300000, guid: 76de4e10770fd2d46bc1f4e5940688f0, type: 3}
+    relationshipType: 2
+    smokerStatus: 1
+    petStatus: 1
+  - bio: Let me take you to the void and introduce you to my friends. Be careful
+      around the grubs tho or they'll bite you in the @$$!
+    distance: 19
+    portrait: {fileID: 21300000, guid: 5fb19eab2553942468316394aff5af33, type: 3}
+    relationshipType: 2
+    smokerStatus: 1
+    petStatus: 1
+  - bio: "Strong and independent woman here, living my best life. Don't need any
+      men.. \nStop asking me why I'm here!!"
+    distance: 8
+    portrait: {fileID: 21300000, guid: 822990aa0942b334c99c6bc42af991d4, type: 3}
+    relationshipType: 0
+    smokerStatus: 1
+    petStatus: 0
+  - bio: "Ready to settle down and raise a family. \nI love kids and everything that
+      comes with them."
+    distance: 7
+    portrait: {fileID: 21300000, guid: 8eede04d51af2c94795db38472536fd5, type: 3}
     relationshipType: 0
     smokerStatus: 0
     petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
+  - bio: I like to make money alright ?!
+    distance: 12
+    portrait: {fileID: 21300000, guid: 9c7541bc78b915341886df6e884b76f1, type: 3}
+    relationshipType: 2
+    smokerStatus: 0
+    petStatus: 1
+  - bio: Who's going to the Shambs this year???
+    distance: 3
+    portrait: {fileID: 21300000, guid: bcdf5968dc78ce5409c096300a97c675, type: 3}
+    relationshipType: 2
+    smokerStatus: 0
+    petStatus: 1
+  - bio: Someone to come home to...
+    distance: 5
+    portrait: {fileID: 21300000, guid: 4e469e11828d62c46aea27eef37b3f90, type: 3}
     relationshipType: 0
+    smokerStatus: 1
+    petStatus: 0
+  - bio: Ultra-marathon runner, clean lungs!
+    distance: 21
+    portrait: {fileID: 21300000, guid: 0ce00049d8832674890cd2ba7721d8f6, type: 3}
+    relationshipType: 1
     smokerStatus: 0
     petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
+  - bio: Soulmate searching...
+    distance: 26
+    portrait: {fileID: 21300000, guid: 589a94d6a7336944e879cf581b5cc017, type: 3}
+    relationshipType: 1
+    smokerStatus: 1
     petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
+  - bio: I'm a homebody... because of allergies ugh!
+    distance: 9
+    portrait: {fileID: 21300000, guid: d7695ff72b95f0d46852696d6389592d, type: 3}
     relationshipType: 0
-    smokerStatus: 0
+    smokerStatus: 1
     petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
+  - bio: Just looking for a fun time I guess!
+    distance: 2
+    portrait: {fileID: 21300000, guid: 0a1429743a8ab604ab30c1406a4ba47b, type: 3}
+    relationshipType: 1
+    smokerStatus: 1
     petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
-    smokerStatus: 0
-    petStatus: 0
-  - bio: 
-    distance: 0
-    portrait: {fileID: 0}
-    relationshipType: 0
+  - bio: Chainsmoking and heavy drinking are all I can do...
+    distance: 6
+    portrait: {fileID: 21300000, guid: dd0c0931c0293624294a064a5245b6fb, type: 3}
+    relationshipType: 1
     smokerStatus: 0
     petStatus: 0

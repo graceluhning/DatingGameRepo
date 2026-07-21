@@ -57,15 +57,15 @@ namespace DatingGame.Core
         public void ShowPerfectMatch(GeneratedProfile profile)
         {
             if (hintText == null) return;
-            hintText.text = "YOU FOUND THEM! YOUR PERFECT MATCH!";
-            timer = 10f; // Show for longer
+            hintText.text = "YOU FOUND THEM! YOUR PERFECT MATCH!\nTap to play again.";
+            timer = 0; // Setting timer to 0 ensures it won't be cleared in Update
         }
 
         public void ShowGameOver()
         {
             if (hintText == null) return;
-            hintText.text = "GAME OVER! You made too many mistakes.";
-            timer = 10f;
+            hintText.text = "GAME OVER! You made too many mistakes.\nTap to try again.";
+            timer = 0; // Setting timer to 0 ensures it won't be cleared in Update
         }
     }
 }

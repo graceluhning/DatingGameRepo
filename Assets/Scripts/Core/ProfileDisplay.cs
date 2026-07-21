@@ -23,7 +23,7 @@ namespace DatingGame.Core
             if (distanceText != null)
                 distanceText.text = $"{profile.distance:F1} miles away";
 
-            if (portraitImage != null && profile.portrait != null)
+            if (portraitImage != null)
                 portraitImage.sprite = profile.portrait;
         }
     }
