@@ -9,6 +9,8 @@ namespace DatingGame.Core
         [SerializeField] private TextMeshProUGUI hintText;
         [SerializeField] private float displayDuration = 3f;
 
+        [SerializeField] MenuManager menuManager;
+
         private float timer;
 
         private void Start()
@@ -59,6 +61,7 @@ namespace DatingGame.Core
             if (hintText == null) return;
             hintText.text = "YOU FOUND THEM! YOUR PERFECT MATCH!";
             timer = 10f; // Show for longer
+            menuManager.GameWon();
         }
 
         public void ShowGameOver()
@@ -66,6 +69,8 @@ namespace DatingGame.Core
             if (hintText == null) return;
             hintText.text = "GAME OVER! You made too many mistakes.";
             timer = 10f;
+
+            menuManager.GameOver();
         }
     }
 }

@@ -32,6 +32,8 @@ namespace DatingGame.Core
         private bool isGameOver = false;
         private const int MaxMistakes = 3;
         private const int SwipesRequiredForPerfectMatch = 15;
+        
+        [SerializeField] private AudioManager audioManager;
 
         private void Start()
         {
@@ -105,11 +107,13 @@ namespace DatingGame.Core
         private void SwipeRight()
         {
             ProcessSwipe(true);
+            audioManager.Swipe();
         }
 
         private void SwipeLeft()
         {
             ProcessSwipe(false);
+            audioManager.Swipe();
         }
 
         private void ProcessSwipe(bool liked)
