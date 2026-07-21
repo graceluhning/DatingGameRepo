@@ -11,7 +11,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: efd87a56a57a2b14ba9c1daacaf6d1b6, type: 3}
   m_Name: MasterDatingPool
-  m_EditorClassIdentifier: Assembly-CSharp::DatingGame.Data.ProfilePool
+  m_EditorClassIdentifier: 
   profiles:
   - bio: 'D!ck pic = block!
 
@@ -28,8 +28,10 @@ MonoBehaviour:
     relationshipType: 1
     smokerStatus: 1
     petStatus: 1
-  - bio: "An avid reader and a traveler, also a dog mom! \n\nNew in town, looking
-      for someone to show me around."
+  - bio: |
+      An avid reader and a traveler, also a dog mom!
+
+      New in town, looking for someone to show me around.
     distance: 7
     portrait: {fileID: 21300000, guid: 9a3da5ec37c87d142a1cf3d4fc92cea0, type: 3}
     relationshipType: 2
@@ -69,8 +71,9 @@ MonoBehaviour:
     relationshipType: 0
     smokerStatus: 0
     petStatus: 0
-  - bio: "I love outdoors and hiking. \nThere is a place I know just outside the
-      town."
+  - bio: |
+      I love outdoors and hiking.
+      There is a place I know just outside the town.
     distance: 19
     portrait: {fileID: 21300000, guid: afcabc847de6b034da8a7b3ed47d9c6e, type: 3}
     relationshipType: 2
@@ -104,8 +107,11 @@ MonoBehaviour:
     relationshipType: 0
     smokerStatus: 0
     petStatus: 1
-  - bio: "I hate life and everything in it. So I probably hate you too\n\nConservatives
-      are lame \n420 friendly"
+  - bio: |
+      I hate life and everything in it. So I probably hate you too
+
+      Conservatives are lame
+      420 friendly
     distance: 29
     portrait: {fileID: 21300000, guid: 62e26e7af7c99bd449238f12f676f962, type: 3}
     relationshipType: 2
@@ -117,7 +123,9 @@ MonoBehaviour:
     relationshipType: 2
     smokerStatus: 0
     petStatus: 1
-  - bio: "Lover of life, animals and nature. Inauthentic people makes\n me cringe.."
+  - bio: |
+      Lover of life, animals and nature. Inauthentic people make
+      me cringe..
     distance: 8
     portrait: {fileID: 21300000, guid: 0c2511e9b457f1a49b4c3e1c97f034b2, type: 3}
     relationshipType: 0
@@ -163,15 +171,17 @@ MonoBehaviour:
     relationshipType: 2
     smokerStatus: 1
     petStatus: 1
-  - bio: "Strong and independent woman here, living my best life. Don't need any
-      men.. \nStop asking me why I'm here!!"
+  - bio: |
+      Strong and independent woman here, living my best life. Don't need any men..
+      Stop asking me why I'm here!!
     distance: 8
     portrait: {fileID: 21300000, guid: 822990aa0942b334c99c6bc42af991d4, type: 3}
     relationshipType: 0
     smokerStatus: 1
     petStatus: 0
-  - bio: "Ready to settle down and raise a family. \nI love kids and everything that
-      comes with them."
+  - bio: |
+      Ready to settle down and raise a family.
+      I love kids and everything that comes with them.
     distance: 7
     portrait: {fileID: 21300000, guid: 8eede04d51af2c94795db38472536fd5, type: 3}
     relationshipType: 0
