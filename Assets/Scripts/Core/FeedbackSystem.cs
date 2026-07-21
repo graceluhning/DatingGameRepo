@@ -47,7 +47,7 @@ namespace DatingGame.Core
                 if (liked)
                     message = "Oops! That person didn't actually match your traits.";
                 else
-                    message = "Missed one! They actually shared all your interests.";
+                    message = "Missed one! They actually shared some of your interests.";
             }
 
             hintText.text = message;

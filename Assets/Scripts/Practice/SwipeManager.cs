@@ -29,7 +29,7 @@ namespace DatingGame.Core
         private PetStatus playerPets;
 
         private int mistakesCount = 0;
-        private int correctSwipesCount = 0;
+        private int totalSwipesCount = 0;
         private bool isGameOver = false;
         private const int MaxMistakes = 3;
         private const int SwipesRequiredForPerfectMatch = 15;
@@ -117,17 +117,16 @@ namespace DatingGame.Core
         {
             if (currentProfile != null)
             {
+                totalSwipesCount++;
                 int matchCount = GetMatchCount(currentProfile);
                 bool relationshipMatches = currentProfile.relationshipType == playerRelationship;
-                int requiredMatches = (correctSwipesCount >= SwipesRequiredForPerfectMatch) ? 1 : 2;
+                int requiredMatches = (totalSwipesCount > SwipesRequiredForPerfectMatch) ? 1 : 2;
                 bool isMatch = relationshipMatches && (matchCount >= requiredMatches);
                 bool wasCorrect = (liked == isMatch);
 
                 if (wasCorrect)
                 {
-                    correctSwipesCount++;
-                    
-                    if (liked && correctSwipesCount > SwipesRequiredForPerfectMatch)
+                    if (liked && totalSwipesCount > SwipesRequiredForPerfectMatch)
                     {
                         feedback.ShowPerfectMatch(currentProfile);
                         isGameOver = true;
@@ -140,7 +139,6 @@ namespace DatingGame.Core
                 else
                 {
                     mistakesCount++;
-                    correctSwipesCount = 0; 
                     if (mistakesCount >= MaxMistakes)
                     {
                         feedback.ShowGameOver();
