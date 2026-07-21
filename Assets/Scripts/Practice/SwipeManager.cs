@@ -105,11 +105,15 @@ namespace DatingGame.Core
 
         private void SwipeRight()
         {
+            MusicManager.instance.StopSFX();
+            MusicManager.instance.SwipingSFX();
             ProcessSwipe(true);
         }
 
         private void SwipeLeft()
         {
+            MusicManager.instance.StopSFX();
+            MusicManager.instance.SwipingSFX();
             ProcessSwipe(false);
         }
 
