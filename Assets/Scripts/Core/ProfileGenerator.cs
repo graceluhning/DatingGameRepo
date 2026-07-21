@@ -6,7 +6,7 @@ namespace DatingGame.Core
 {
     public class ProfileGenerator : MonoBehaviour
     {
-        [SerializeField] private ProfilePool pool;
+        [SerializeField] private ProfilePool pool; // profile pool reference
         private int lastIndex = -1;
         private List<int> availableIndices = new List<int>();
 

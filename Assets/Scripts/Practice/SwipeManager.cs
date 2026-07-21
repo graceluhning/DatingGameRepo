@@ -11,7 +11,7 @@ namespace DatingGame.Core
     {
         [Header("Settings")]
         [SerializeField] private RectTransform cardTransform;
-        [SerializeField] private float swipeThreshold = 100f;
+        [SerializeField] private float swipeThreshold = 100f; // threshold for swipe
         [SerializeField] private float rotationModifier = 0.1f;
 
         [Header("References")]
